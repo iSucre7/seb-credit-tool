@@ -1,0 +1,320 @@
+{
+  "extraction_metadata": {
+    "company": "aa_energi",
+    "period": "FY2024",
+    "accounting_standard": "IFRS16",
+    "currency": "NOK",
+    "unit": "millions",
+    "confidence": "high",
+    "notes_found": [
+      "Note 1 - Segmentinformasjon",
+      "Note 9 - Finansinntekter og finanskostnader",
+      "Note 13 - Varige driftsmidler",
+      "Note 14 - Tilknyttede selskaper",
+      "Note 20 - Pensjoner",
+      "Note 21 - Rentebærende gjeld",
+      "Note 22 - Annen kortsiktig gjeld",
+      "Note 23 - Finansielle instrumenter",
+      "Note 24 - Derivater",
+      "Note 25 - Finansiell risikostyring"
+    ],
+    "extraction_notes": "Comprehensive financial notes extracted. Full detail available for finance costs, pensions, leases, debt schedule, segments, associates/JVs, working capital, and derivatives. Data extracted from 2024 and 2023 comparative periods."
+  },
+  "finance_costs_breakdown": {
+    "current_period": {
+      "label": "2024",
+      "interest_on_financial_debt": 650,
+      "interest_on_lease_liabilities": 9,
+      "interest_on_pension_obligations": null,
+      "interest_on_provisions_unwinding": null,
+      "capitalised_interest": -46,
+      "fx_gains_losses": 20,
+      "fair_value_movements_derivatives": -29,
+      "fair_value_movements_power_contracts": null,
+      "interest_income": 111,
+      "other_finance_costs": 76,
+      "total_finance_costs_reported": 620,
+      "core_cash_interest_net": 650
+    },
+    "prior_period": {
+      "label": "2023",
+      "interest_on_financial_debt": 454,
+      "interest_on_lease_liabilities": null,
+      "interest_on_pension_obligations": null,
+      "interest_on_provisions_unwinding": null,
+      "capitalised_interest": -33,
+      "fx_gains_losses": 6,
+      "fair_value_movements_derivatives": 62,
+      "fair_value_movements_power_contracts": null,
+      "interest_income": 124,
+      "other_finance_costs": 88,
+      "total_finance_costs_reported": 465,
+      "core_cash_interest_net": 454
+    }
+  },
+  "pension": {
+    "current_period_end": {
+      "defined_benefit_obligation": 3454,
+      "plan_assets_fair_value": 4709,
+      "net_pension_deficit": null,
+      "pension_surplus": 1255,
+      "service_cost_current_year": 32,
+      "interest_cost_on_obligation": 114,
+      "employer_contributions": 169,
+      "annual_pension_payments": 167,
+      "actuarial_discount_rate_pct": 3.9,
+      "salary_growth_rate_pct": 4.0,
+      "plan_type": "funded",
+      "notes": "Ytelsesbasert alderspensjonsordning for ansatte født før 1963. Innskuddsbasert for ansatte født etter 1963. AFP-ordning for ansatte født 1962 og tidligere."
+    },
+    "prior_period_end": {
+      "defined_benefit_obligation": 3374,
+      "plan_assets_fair_value": 3991,
+      "net_pension_deficit": null,
+      "pension_surplus": 617
+    }
+  },
+  "leases_ifrs16": {
+    "current_period_end": {
+      "total_lease_liabilities": 469,
+      "current_lease_liabilities": 126,
+      "non_current_lease_liabilities": 343,
+      "rou_asset_carrying_value": null,
+      "interest_expense_on_leases": 9,
+      "depreciation_of_rou_assets": null,
+      "lease_principal_repaid": 95,
+      "short_term_lease_expense": null,
+      "low_value_lease_expense": null
+    },
+    "prior_period_end": {
+      "total_lease_liabilities": 357,
+      "current_lease_liabilities": 84,
+      "non_current_lease_liabilities": 273
+    }
+  },
+  "debt_schedule": {
+    "current_period_end": {
+      "total_interest_bearing_debt": 17224,
+      "bank_loans": 4530,
+      "bonds_issued": 8360,
+      "commercial_paper": 0,
+      "subordinated_hybrid_debt": null,
+      "shareholder_loans": null,
+      "other_debt": 35,
+      "fixed_rate_portion": null,
+      "floating_rate_portion": null,
+      "weighted_average_interest_rate_pct": null,
+      "maturity_profile": {
+        "within_1_year": 3053,
+        "1_to_2_years": 1978,
+        "2_to_3_years": 1740,
+        "3_to_5_years": 3860,
+        "beyond_5_years": 5391
+      },
+      "undrawn_credit_facilities": 3198,
+      "covenants_disclosed": true,
+      "covenant_detail": "Fredrikstad Energi and Nettpartner financial covenants: Equity ratio minimum 25-30%, Maximum gjeldsgrad 2.25 (Nettpartner 1.5), Minimum interest coverage 2.0x",
+      "next_bond_maturity_date": null,
+      "next_bond_maturity_amount": null
+    },
+    "prior_period_end": {
+      "total_interest_bearing_debt": 13389,
+      "bonds_issued": 3732
+    }
+  },
+  "capitalised_interest": {
+    "current_period": {
+      "amount_capitalised": 46,
+      "capitalisation_rate_pct": 4.3,
+      "projects_note": "Building loans capitalised at average group borrowing rate"
+    },
+    "prior_period": {
+      "amount_capitalised": 33
+    }
+  },
+  "segments": {
+    "segment_basis": "Internal reporting to group management based on business areas",
+    "segments": [
+      {
+        "name": "Vannkraft",
+        "current_period": {
+          "revenue": 7787,
+          "ebitda": 6004,
+          "ebit": 5594,
+          "capex": 543,
+          "assets": 32662,
+          "depreciation": 405
+        },
+        "prior_period": {
+          "revenue": 8178,
+          "ebitda": 5999,
+          "ebit": 5594,
+          "capex": 543,
+          "assets": 32662,
+          "depreciation": 405
+        }
+      },
+      {
+        "name": "Nett",
+        "current_period": {
+          "revenue": 3118,
+          "ebitda": 1466,
+          "ebit": 652,
+          "capex": 803,
+          "assets": 12276,
+          "depreciation": 407
+        },
+        "prior_period": {
+          "revenue": 2861,
+          "ebitda": 1059,
+          "ebit": 652,
+          "capex": 803,
+          "assets": 12276,
+          "depreciation": 407
+        }
+      },
+      {
+        "name": "Nordisk kraftsalg",
+        "current_period": {
+          "revenue": 16150,
+          "ebitda": 1573,
+          "ebit": 1525,
+          "capex": 13,
+          "assets": 7650,
+          "depreciation": 40
+        },
+        "prior_period": {
+          "revenue": 18974,
+          "ebitda": 1565,
+          "ebit": 1525,
+          "capex": 13,
+          "assets": 7650,
+          "depreciation": 40
+        }
+      },
+      {
+        "name": "Øvrig virksomhet",
+        "current_period": {
+          "revenue": 1758,
+          "ebitda": -1743,
+          "ebit": -383,
+          "capex": 128,
+          "assets": 38022,
+          "depreciation": 187
+        },
+        "prior_period": {
+          "revenue": 1324,
+          "ebitda": -196,
+          "ebit": -383,
+          "capex": 128,
+          "assets": 38022,
+          "depreciation": 187
+        }
+      }
+    ],
+    "eliminations_current": -1669,
+    "eliminations_prior": null
+  },
+  "associates_jvs": {
+    "current_period": {
+      "share_of_profit_loss": -312,
+      "dividends_received": 230,
+      "carrying_value": 5602,
+      "material_associates": [
+        {
+          "name": "Viken Fiber Holding AS",
+          "ownership_pct": 28.5,
+          "carrying_value": 3280,
+          "share_of_profit_loss": 63,
+          "nature": "Associated company - fiber network"
+        },
+        {
+          "name": "Morrow Batteries ASA",
+          "ownership_pct": 49.9,
+          "carrying_value": 886,
+          "share_of_profit_loss": -249,
+          "nature": "Associated company - battery storage (impairment -255 mill)"
+        },
+        {
+          "name": "Otovo ASA",
+          "ownership_pct": 31.4,
+          "carrying_value": 13,
+          "share_of_profit_loss": -133,
+          "nature": "Associated company (impairment -150 mill)"
+        },
+        {
+          "name": "Hadeland Kraft AS",
+          "ownership_pct": 49.0,
+          "carrying_value": 295,
+          "share_of_profit_loss": 11,
+          "nature": "Associated company - power generation"
+        }
+      ]
+    },
+    "prior_period": {
+      "share_of_profit_loss": -72,
+      "dividends_received": null
+    }
+  },
+  "working_capital_detail": {
+    "current_period_end": {
+      "trade_receivables_gross": 5322,
+      "bad_debt_provision": -38,
+      "trade_receivables_net": 5284,
+      "other_receivables": 1304,
+      "prepayments": 183,
+      "inventories_breakdown": null,
+      "trade_payables": 2256,
+      "accrued_liabilities": 959,
+      "deferred_revenue": 1144,
+      "other_current_liabilities": 1399
+    },
+    "prior_period_end": {
+      "trade_receivables_net": 5785,
+      "trade_payables": 2264
+    }
+  },
+  "provisions_and_contingencies": {
+    "decommissioning_provision": null,
+    "restructuring_provision": null,
+    "legal_provision": null,
+    "other_provisions": 1483,
+    "material_contingent_liabilities": "Åseral tunnel tax case - 165 mill. kr tax payable if court ruling upheld on appeal. Nåverdien av inntektsforskjellen utgjør ca 70 mill. kr",
+    "guarantees_given": "Bankgarantier 1 367 mill. kr for krafthandel, nettleie, kontrakter m.v. Morselskapsgarantier 2 266 mill. kr for datterselskapers forpliktelser (667 mill. kr benyttet)"
+  },
+  "unusual_items_reconciliation": {
+    "current_period": {
+      "unrealised_power_contract_gains_losses": 1769,
+      "unrealised_fx_gains_losses": -29,
+      "impairments": -405,
+      "disposal_gains_losses": 678,
+      "merger_amortisation": -128,
+      "restructuring_costs": null,
+      "other_unusual_items": -46,
+      "total_adjustments_to_underlying": 2447
+    },
+    "prior_period": {
+      "unrealised_power_contract_gains_losses": 5317,
+      "unrealised_fx_gains_losses": -162,
+      "impairments": -60,
+      "disposal_gains_losses": 0,
+      "total_adjustments_to_underlying": 5317
+    }
+  },
+  "hybrid_instruments": {
+    "exists": true,
+    "description": "Fredrikstad Energi foretaksfondsobligasjon - 99 år, subordinated, pålydende 300 mill. kr. Interest deferral option if interest coverage <2.5x. Net amount 249 mill. kr after 51 mill. kr treasury shares.",
+    "carrying_value": 249,
+    "interest_expense": null,
+    "equity_credit_features": "Subordinated position, interest deferral feature, cumulative coupons. Classified as debt based on IAS 32 assessment."
+  },
+  "restricted_cash": {
+    "amount": 40,
+    "reason": "Security deposits to exchanges for trading activities (locked bank accounts)"
+  },
+  "factoring_securitisation": {
+    "exists": false,
+    "amount": null,
+    "description": null
+  }
+}
